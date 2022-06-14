@@ -11,6 +11,7 @@ public class Spouse {
 		this.organization = organization;
 		this.phone = phone;
 	}
+	public Spouse() {}
 	/**
 	 * @return the name
 	 */

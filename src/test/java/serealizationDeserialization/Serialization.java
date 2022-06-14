@@ -55,7 +55,7 @@ public class Serialization {
 	@Test
 	public void serializationOfPage() throws JsonGenerationException, JsonMappingException, IOException
 	{
-		long[] phone = { 9989436339L,8886221868L};
+		long[] phone = {9989436339L,8886221868L};
 		String [] email= {"nkumar@gmail.com","gnk@accenture.com"};
 		Spouse spouse=new Spouse("Revathi", "Acc123", "Accenture",9989436339L);
 		Kid1 kid1=new Kid1("Baby1","B1");

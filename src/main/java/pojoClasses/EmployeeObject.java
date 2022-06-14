@@ -52,6 +52,7 @@ public class EmployeeObject {
 	public void setEmail(String[] email) {
 		this.email = email;
 	}
+	
 	/**
 	 * @return the phone
 	 */

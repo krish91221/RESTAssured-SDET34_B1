@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import pojoClasses.EmployeeDetails;
 import pojoClasses.EmployeeDetailsWithArray;
 import pojoClasses.EmployeeDetailsWithObject;
+import pojoClasses.EmployeeObject;
 
 public class Deserialization {
 	@Test
@@ -28,7 +29,7 @@ public class Deserialization {
 	public void deSerializationOfComplexResponse() throws JsonParseException, JsonMappingException, IOException
 	{
 		ObjectMapper oMap =new ObjectMapper();
-		EmployeeDetailsWithArray emp = oMap.readValue(new File("./marshallFiles/empDetai2.json"), EmployeeDetailsWithArray.class);
+		EmployeeDetailsWithArray emp = oMap.readValue(new File("./marshallFiles/empDetail2.json"), EmployeeDetailsWithArray.class);
 		System.out.println(emp.geteName());
 		System.out.println(emp.geteId());
 		System.out.println(emp.getPhone());
@@ -44,5 +45,17 @@ public class Deserialization {
 		System.out.println(emp.geteId());
 		System.out.println(emp.getPhone());
 		System.out.println(emp.getSpouse());
+	}
+	@Test
+	public void deSerializationOfPage() throws JsonParseException, JsonMappingException, IOException
+	{
+		ObjectMapper oMap =new ObjectMapper();
+		EmployeeObject emp = oMap.readValue(new File("./marshallFiles/empDetail4.json"), EmployeeObject.class);
+		System.out.println(emp.geteName());
+		System.out.println(emp.geteId());
+		System.out.println(emp.getEmail());
+		System.out.println(emp.getPhone());
+		System.out.println(emp.getSpouse());
+		System.out.println(emp.getKids());
 	}
 }
