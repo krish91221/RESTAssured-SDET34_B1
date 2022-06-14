@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="serealizationDeserialization.Deserialization">
+      <class name="differentWaysToPostRequest.PostUsingPojo">
         <methods>
-          <include name="deSerializationOfComplexResponse"/>
-          <include name="deSerializationOfComplexRequestWithObject"/>
+          <include name="postUsingPojo"/>
         </methods>
-      </class> <!-- serealizationDeserialization.Deserialization -->
+      </class> <!-- differentWaysToPostRequest.PostUsingPojo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
