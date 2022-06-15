@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-15T17:01:07 IST" name="Default suite" finished-at="2022-06-15T17:01:13 IST" duration-ms="5365">
+  <suite started-at="2022-06-15T22:19:50 IST" name="Default suite" finished-at="2022-06-15T22:19:56 IST" duration-ms="6103">
     <groups>
     </groups>
-    <test started-at="2022-06-15T17:01:07 IST" name="Default test" finished-at="2022-06-15T17:01:13 IST" duration-ms="5365">
-      <class name="Authentication.BearerTokenTest">
-        <test-method signature="bearerTokenTest()[pri:0, instance:Authentication.BearerTokenTest@3d1cfad4]" started-at="2022-06-15T17:01:07 IST" name="bearerTokenTest" finished-at="2022-06-15T17:01:12 IST" duration-ms="5305" status="PASS">
+    <test started-at="2022-06-15T22:19:50 IST" name="Default test" finished-at="2022-06-15T22:19:56 IST" duration-ms="6103">
+      <class name="Authentication.Oauth2Authentication">
+        <test-method signature="oauth2Authentication()[pri:0, instance:Authentication.Oauth2Authentication@34f7cfd9]" started-at="2022-06-15T22:19:50 IST" name="oauth2Authentication" finished-at="2022-06-15T22:19:56 IST" duration-ms="6047" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bearerTokenTest -->
-      </class> <!-- Authentication.BearerTokenTest -->
+        </test-method> <!-- oauth2Authentication -->
+      </class> <!-- Authentication.Oauth2Authentication -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

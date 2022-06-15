@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Authentication.BearerTokenTest">
+      <class name="Authentication.Oauth2Authentication">
         <methods>
-          <include name="bearerTokenTest"/>
+          <include name="oauth2Authentication"/>
         </methods>
-      </class> <!-- Authentication.BearerTokenTest -->
+      </class> <!-- Authentication.Oauth2Authentication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
