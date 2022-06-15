@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="differentWaysToPostRequest.PostUsingPojo">
+      <class name="Authentication.BearerTokenTest">
         <methods>
-          <include name="postUsingPojo"/>
+          <include name="bearerTokenTest"/>
         </methods>
-      </class> <!-- differentWaysToPostRequest.PostUsingPojo -->
+      </class> <!-- Authentication.BearerTokenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

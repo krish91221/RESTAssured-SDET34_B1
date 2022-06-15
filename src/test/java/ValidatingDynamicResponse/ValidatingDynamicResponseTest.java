@@ -28,6 +28,7 @@ public void validatingDynamicResponse()
 		{
 			 Assert.assertEquals(expData, actData);
 			 flag=true;
+			 break;
 		}
 	}
 	 if(flag)
